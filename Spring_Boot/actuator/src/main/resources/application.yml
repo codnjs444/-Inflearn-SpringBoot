@@ -1,4 +1,13 @@
 management:
+  info:
+    java:
+      enabled: true
+    git:
+      mode: "full"
+    os:
+      enabled: true
+    env:
+      enabled: true
   endpoints:
     web:
       exposure:
@@ -9,3 +18,8 @@ management:
     health:
 #      show-details: always
       show-components: always
+
+info:
+  app:
+    name: hello-actuator
+    company: cw
