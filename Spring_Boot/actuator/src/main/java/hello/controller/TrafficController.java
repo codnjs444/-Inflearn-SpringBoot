@@ -47,4 +47,11 @@ public class TrafficController {
         log.info("connection info={}", con);
         return "ok good";
     }
+
+    @GetMapping("error-log")
+    public String errorLog() {
+        log.error("error log");
+        return "error";
+    }
+
 }
