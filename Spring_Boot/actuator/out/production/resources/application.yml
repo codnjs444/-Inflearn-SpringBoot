@@ -8,6 +8,8 @@ management:
       enabled: true
     env:
       enabled: true
+    server:
+      port: 9292
   endpoints:
     web:
       exposure:
