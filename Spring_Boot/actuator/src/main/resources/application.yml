@@ -9,7 +9,7 @@ management:
     env:
       enabled: true
     server:
-      port: 9292
+      port: 8080
   endpoints:
     web:
       exposure:
@@ -34,3 +34,8 @@ server:
   tomcat:
     mbeanregistry:
       enabled: true
+
+spring:
+  jackson:
+    serialization:
+      indent-output: true
